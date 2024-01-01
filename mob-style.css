@@ -1,0 +1,1875 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body
+{
+min-height: 100vh;
+ width:  100vw;
+    overflow-x: hidden;
+    /* display: none;*/
+    
+}
+
+
+
+/*.container
+{
+    max-width: 1536px;
+  margin-inline: auto;
+    
+    
+    
+}
+*/
+
+[class*="col-"]
+{
+  /*padding: 15px;*/
+  float: left;
+}
+
+/*[class*="col-"]
+{
+    width: 100%;
+}*/
+
+.container::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+
+.our-skill-section::after
+{
+   content: '';
+    display: table;
+    clear: both;  
+}
+
+
+
+.Coffee-Type-Section::after
+{
+   content: '';
+    display: table;
+    clear: both;    
+}
+
+.Coffee-Process-Section::after
+{
+    content: '';
+    display: table;
+    clear: both;       
+}
+
+.Coffee-vedio-Section::after
+{
+   content: '';
+    display: table;
+    clear: both;         
+}
+
+.Coffee-Sell-Delevary-Section::after
+{
+   content: '';
+    display: table;
+    clear: both;           
+}
+
+.Coffe-Test-Section::after
+{
+    content: '';
+    display: table;
+    clear: both;        
+}
+
+.Coffe-Time-on-off-Section::after
+{
+     content: '';
+    display: table;
+    clear: both;        
+}
+
+.footer::after
+{
+   content: '';
+    display: table;
+    clear: both;         
+}
+
+/*.container .banner-image
+{
+    position: relative;
+}
+*/
+
+.banner-image
+{
+   padding: 0% 0%;   
+}
+
+
+.banner-image img
+{
+    
+width: 110%;
+height: 70vh;
+    
+    /*background-color: black;
+
+    background-blend-mode: overlay;*/
+
+    /*background-image: url(image/tea-background.jpg);
+    */
+
+    /*background-color: linear-gradient(to right, black );
+    */
+   
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+  
+}
+
+.kalu
+{
+   position: absolute;
+    top: 0%;
+    left: 0%;
+   mix-blend-mode: multiply;
+}
+
+/*.banner-image img::after
+{
+    background-color: rgba(0,0,0,)
+}
+*/
+/*.banner-image
+{
+    background-image: url(tea-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 120vw;
+    height: 90vh;
+    /*background-size: 100%;
+}
+*/
+
+.navbar-menu 
+{
+position: absolute;
+left: 57%;
+bottom: 90%;
+    
+}
+
+.logo-image
+{
+  position: absolute;
+right: 50%;
+bottom: 88%; 
+    
+}
+
+img
+{
+ height: 11vh;   
+}
+
+a
+{
+  text-decoration: none; 
+    /*color: white;*/
+    color: #cbc9ca;
+    padding: 10px;
+    font-family: tahoma;
+    font-size: 12pt;
+}
+
+i
+{
+  
+   padding-top: 7px;
+ height: 32px;
+    width: 32px;    
+}
+
+
+.btn
+{
+   
+     text-align: center; 
+     background-color: gray;
+   border-radius: 50%;
+ 
+    /*margin-bottom: 10px;*/
+   
+}
+
+#sub
+{
+   /*font-family: sans-serif;*/ font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+#bhan
+{
+  font-family: calibri; 
+    font-size: 3rem;
+    font-weight: 300;  
+}
+
+#kara
+{
+ font-family: calibri; 
+    font-size: 3rem;
+    font-weight: 300;     
+}
+
+
+
+.h
+{
+ color: white;
+    position: absolute;
+    bottom: 59%;
+    left: 16.20%;
+    /*font-family: 'Roboto', sans-serif;
+    font-size: 11rem;
+    font-weight: bold;
+    */
+}
+
+.c
+{
+    color: white;
+    position: absolute;
+    bottom: 49%;
+    left: /*17%;*/ 16.20%;
+    line-height: 22px;
+    
+     font-family: calibri; 
+    font-size: 1.2rem;
+    font-weight: 400;  
+    
+}
+
+.b1
+{
+    background-color: /*coral*/ #d07723;
+   color: white;
+    position: absolute;
+    bottom: 35%; 
+    left: /*24%;*/  23%; /*16.20%;*/
+    border: none;
+    border-radius: 6.50%;
+    padding: 20px;
+    width: 12rem;
+    margin-top: 10%;
+    margin-left: 8.80%;
+    
+    font-family: calibri; 
+    font-size: 1.30rem;
+    font-weight: 600;  
+    
+}
+
+.b1:hover{
+    background-color: white;
+    color: /*orangered*/ #d07723;
+}
+
+.b2
+{
+    background-color: /*coral*/ #d07723;
+   color: white;
+    position: absolute;
+    bottom: 35%; 
+    left: /*17%;*/  16.20%;
+     border: none;
+    border-radius: 6.70%;
+    padding: 20px;
+    width: 12rem;
+    
+    font-family: calibri; 
+    font-size: 1.30rem;
+    font-weight: 600;  
+    
+}
+
+.b2:hover{
+    background-color: white;
+    color: /*orangered*/ #d07723;
+}
+
+.our-skill-section
+{
+    background-color: white;
+    /*text-align: center;*/
+}
+
+.o
+{
+   /* color: gainsboro;*/
+    color: #999999;
+    font-size: 2rem;
+    padding-left: 32%;
+     padding-top: 3%; 
+     
+    
+    font-family: calibri; 
+    font-size: 1.30rem;
+    font-weight: 600;  
+    
+    
+    
+}
+
+.s
+{
+   padding-left: 32%; 
+   padding-top: 3%; 
+    color: #2d2d43;
+    font-family: calibri; 
+    font-size: 1.60rem;
+    font-weight: 600;  
+    
+}
+
+.l
+{
+  padding-left: 32%;   
+    padding-top: 3%;
+    color: #2d2d43;
+    
+    font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+
+.our-skill-img img
+{
+  
+
+
+    width: 35vw;
+    height: 51vh;
+    position: absolute;
+    bottom: 25%;
+    left: 52.90%;
+    top: 76%;
+    
+}
+
+.m
+{
+  position: absolute;
+  left: 15.99%;
+  top: /*182%;*/ /*178%;*/ 117%;
+  /*padding-right: 10%;*/ 
+  background: none; /*#2d2d43;*/
+  color: rgb(208, 119, 35);
+  font-family: calibri; 
+  font-size: 1.15rem;
+  font-weight: 400;  
+  border-radius: 6px;
+  border: 1px solid #d07723;
+  
+  
+  /*border-color: rgb(208, 119, 35);*/
+  /*border: 1px rgb(208, 119, 35);*/
+  
+  
+  padding: 9px;
+  width: 8rem;
+  
+   
+}
+
+
+
+.Coffee-Type-Section
+{
+    margin-top: /*9.20%;*/ 9.30%;
+    background-color: /* #FFE4E1;*/ #f8ede4;
+    padding: 9.50% 1%;
+  
+}
+
+.Coffee-Type
+{
+   /* margin-left: 15%;*/
+    /*padding-bottom: 2%;*/
+   position: absolute;
+    left: 19%;
+    top: 145.50%;
+    
+}
+
+.c1
+{
+ height: 4vh;
+ width:  1.8vw;  
+/*margin-left: 25%;*/
+position: absolute;
+    left: 27%;
+    top: -26%;
+  
+
+}
+
+.t
+{
+   /* font-size: 1.3rem;*/
+     margin-top: 3%;
+   /* font-weight: 900;*/
+    color: #2d2d43;
+    
+    font-family: calibri; 
+    font-size: 1.40rem;
+    font-weight: 800;  
+}
+
+.v
+{
+  /*font-size: 0.9rem; */
+    margin-top: 3%;
+    margin-left: -7%;
+    /*color: darkgrey;*/
+     color: #676767;
+    
+    font-family: calibri; 
+    font-size: 1.05rem;
+    font-weight: 200;  
+}
+
+.Bean-Varities
+{
+ /* margin-left: 4%;*/
+    position: absolute;
+    left: 36%;
+    top: /*146.5%;*/ /*149%;*/  146%;
+    
+   
+}
+
+.c2
+{
+ /*height: 9%;
+ width: 9%; */ 
+
+ height: 3vh;
+ width:  1.6vw;  
+/*margin-left: 25%;*/
+position: absolute;
+    left: 25%;
+    top: -23%;
+   
+}
+
+.b
+{
+ /*font-size: 1.3rem; */
+    margin-top: 3%;
+    /*font-weight: 900;*/
+    /* color: #676767;*/
+      color: #2d2d43; 
+    
+    font-family: calibri; 
+    font-size: 1.40rem;
+    font-weight: 800;  
+    
+    
+}
+
+.u
+{
+  font-size: 0.9rem;  
+    margin-top: 3%;
+    color: darkgrey;
+     margin-left: -8%;
+     color: #676767;
+     font-family: calibri; 
+    font-size: 1.05rem;
+    font-weight: 200;  
+}
+
+.Coffee-Pastry
+{
+  /*margin-left: 4%; */ 
+      position: absolute;
+    left: /*50.50%;*/ 52.50%;
+    top: /*146.5%;*/ 146%;
+}
+
+.c3
+{
+ /*height: 9%;
+ width: 9%; */
+    height: 4vh;
+ width:  1.6vw;  
+/*margin-left: 25%;*/
+position: absolute;
+    left: 29%;
+    top: -27%;
+     color: #2d2d43; 
+}
+
+.e
+{
+  /*font-size: 1.3rem;*/
+    margin-top: 3%;
+    /* font-weight: 900;*/
+     color: #2d2d43;
+    
+    font-family: calibri; 
+    font-size: 1.40rem;
+    font-weight: 800;  
+}
+
+.a
+{
+ /*font-size: 0.9rem; */
+    margin-top: 3%;
+    color: darkgrey;
+     color: #676767;
+    
+     font-family: calibri; 
+    font-size: 1.05rem;
+    font-weight: 200;  
+       margin-left: -8%;
+    
+}
+
+
+
+.Coffee-to-go
+{
+ 
+     /*margin-left: 4%;*/
+    
+    position: absolute;
+    left: /*66.50%;*/ 68%;
+    top: /*149%;*/ 146%; 
+}  
+
+
+
+.c4
+{
+ /*height: 9%;
+ width: 9%; */
+     height: 4vh;
+ width:  1.4vw;  
+/*margin-left: 25%;*/
+position: absolute;
+    left: 24%;
+    top: -24%;
+    color: #2d2d43; 
+    
+}
+
+.g
+{
+ /*font-size: 1.3rem;*/  
+    margin-top: 3.70%;
+    margin-left: 7%;
+    /*font-weight: 900;*/
+     color: #2d2d43;
+    
+    font-family: calibri; 
+    font-size: 1.40rem;
+    font-weight: 800;  
+    
+    
+}
+
+.d
+{
+ /*font-size: 0.9rem;*/  
+    margin-top: 3%;
+    color: darkgrey;
+     color: #676767;
+    
+    font-family: calibri; 
+    font-size: 1.05rem;
+    font-weight: 200;  
+       margin-left: -6%;
+}
+
+
+.Coffee-Process-Section
+{
+   margin-top: 10%; 
+    
+}
+
+.Coffee-Process-Section img
+{
+  
+
+
+    width: 30vw;
+    height: 35vh;
+    position: absolute;
+    bottom: 25%;
+    right: 54%;
+    top: 187%;
+    
+}
+
+/*.m
+{
+   padding-left: 35%; 
+   padding-top: 3%; 
+}*/
+
+.m1
+{
+   position: absolute;
+    
+    font-family: calibri; 
+    font-size: 1.15rem;
+    font-weight: 400;  
+   
+    
+    /*border-color: rgb(208, 119, 35);*/
+    /*border: 1px rgb(208, 119, 35);*/
+    
+    
+   
+    
+}
+
+.f
+{
+  position: absolute;
+    left: 47.18%;
+    top: /*197%;*/ 193%;
+    color: #2d2d43;
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.ul
+{
+  position: absolute;
+    left: 47.20%;
+    top: /*205%; */ 202% ;
+    list-style: none;
+}
+
+.ki
+{
+ font-size: /*0.7rem;*/ 0.68rem;
+ color: /*lightgray;*/  #777777;
+    font-weight: 20;
+    position: absolute;
+   /* margin-left: 1.4%;*/
+        left: -6%;
+    top: 1%;
+    bottom: 8%;
+    
+   
+}
+
+.ku
+{
+ font-size: /*0.7rem;*/ 0.68rem;
+ color: /*lightgray;*/  #777777;
+    font-weight: /*bold;*/ 20;
+    position: absolute;
+    left: -3.50%;
+    top: 2%;
+    
+    /*margin-left: 1.4%;
+    margin-top: 5%;*/
+}
+
+.kp
+{
+ font-size: 0.68rem;
+ color: /*lightgray;*/  #777777;
+    font-weight: /*bold;*/ 20;
+    /*margin-left: 1.4%;*/
+      position: absolute;
+    left: -2.60%;
+    top: 2%;
+}
+
+
+.kl
+{
+ font-size: 0.68rem;
+ color:   /* lightgray;*/  #777777;
+    font-weight: 20;
+   /* margin-left: 1.4%;*/
+    position: absolute;
+    left: -2.10%;
+    top: /*8%;*/ 
+}
+
+.km
+{
+ font-size: 0.68rem;
+ color: /*lightgray;*/  #777777;
+    font-weight: 20;
+   /* margin-left: 1.4%;*/
+    position: absolute;
+    left: -1.80%;
+    top: /*13%; */
+}
+
+.kk
+{
+ font-size: 0.68rem;
+ color: /* lightgray;*/ #777777;
+    font-weight: 400;
+   /* margin-left: 1.4%;*/
+    position: absolute;
+    left: -1.60%;
+    top: /*17%; */
+}
+
+/*coffee-Process-desc
+{
+    position: relative;
+}
+*/
+
+
+.li
+{
+      position: absolute;
+    bottom: -1.25rem;
+   right: -20rem;
+    left: 1rem;
+    
+ color: /*lightgray; */ #777777;
+ /*margin-right: 15%;*/
+ /*position: absolute;
+    top: 4%;
+    left: /*1.-1%; 10%;*/
+   /* margin-right: -20%;*/
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+
+
+.ll
+{
+      position: absolute;
+    top: 2rem;
+    right: -35rem;
+    left: 1rem;
+    
+  color: /*lightgray; */ #777777;
+ /*margin-right: 15%;
+ position: absolute;
+    bottom: 45%;/*36%
+   /* left: 1.-1%;    10%;*/
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+
+
+
+/*.ll
+{ 
+
+color: lightgray;  
+ position: absolute;
+    bottom: 47%;
+    left:  1.-1%;  10%;   
+}*/
+
+
+
+.ii
+{
+    
+    position: absolute;
+    top: 3.70rem;
+    right: -45rem;
+    left: 1rem;
+   color: /*lightgray;*/ #777777;
+ 
+    /*position: absolute;
+    bottom: /*-34%; 1%;
+    left: 1.-1%;   10%; */
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+
+
+
+
+.i
+{
+   color: /*lightgray; */ #777777;
+ /*position: absolute;
+    /*bottom: /*-45%;*/
+   /* left: /*1.-1%;  10%; 20%;
+    top: 0;*/
+    
+     position: absolute;
+    top: 5.50rem;
+    right: -55rem;
+    left: 1rem;
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+
+
+.im
+{
+ color: /*lightgray;*/ #777777;  
+ /*margin-right: 15%;*/
+ /*position: absolute;
+    left: 10%;   
+    top: 0;*/
+    /*top: 200%;36%*/
+   /* left: 1.-1%; */
+    
+     position: absolute;
+    top: 7.20rem;
+    right: -65rem;
+    left: 1rem;
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+
+
+
+.ij
+{
+    /*display: inline-flex;*/
+     position: absolute;
+    top: 8.90rem;
+    right: -75rem;
+    left: 1rem;
+    
+/*margin-top: 20px;*/
+    
+  color: #777777;       /*lightgray; */
+        
+ /*margin-right: 15%;*/
+        
+ /*position: absolute;
+  
+    top: 0%;  36%*/ 
+   
+    /*left: /*1.-1%; 0%; 
+    right: 0%;*/
+    
+    
+   /* right: 0%;
+    top: 0%;*/
+    
+    /*left: 10%;
+    top:200%;
+    bottom:-1;
+    right: -5%;*/
+    /*margin-top: px;*/
+    /*padding-top: 70px;*/
+    /*position: absolute;
+    top: 70%;
+    left: 5%;
+    */
+    
+ font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+
+
+
+
+
+
+
+
+
+.Coffee-vedio-Section
+{
+    background-color:  /*#FFE4E1; */ #f8ede4;
+   margin-top: 18%;  
+    padding: /*6.65% 1%;*/ /*12.63% 1%;*/ 11.63% 1%;
+    
+    
+}
+
+.Coffee-vedio-Section img
+{
+    width: 33vw;
+    height: /*43vh;*/ 42%;
+    position: absolute;
+    bottom: 16%;
+    left: /*45.8%; */ /*20rem;*/ 53%;
+    top: 243.50%; /*243.70%;*/ /*150rem;*/ /*249%;*/ /*242.40%;*/ /*239.60%;*/
+}
+
+.do
+{
+    position: absolute;
+    /*left: 20%;
+    top: 2%;*/
+    top: /*242.20%;*/ /*249.50%;*/ 243%;
+    left: /*17.50rem;*/ 13.80rem;
+    color: #2d2d43;
+    font-family: calibri; 
+    font-size: 1.90rem;
+    font-weight: 800;  
+    
+    
+}
+
+
+
+.lo
+{
+    position: absolute;
+    /*left: 20%;
+    top: 2%;*/
+    top: /*256.50%;*/ /*264.70%;*/ 258%;
+    left: /*17.70rem;*/ /*16rem;*/ 13.80rem;
+    color:#777777;
+    
+    font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+} 
+
+
+
+
+
+
+.Coffee-Sell-Delevary-Section
+{
+  margin-bottom: 21%;  
+    
+}
+
+.Coffee-Sell-Delevary-Section img
+{
+    width: 33vw;
+    height: /*43vh;*/ 39%;
+    position: absolute;
+    bottom: 16%;
+    left: /*45.8%; */ /*20rem;*/ 53%;
+    top: /*243.70%;*/ /*150rem;*/ /*300%; */ 296%;
+}
+
+
+
+.sa
+{
+    position: absolute;
+    left: /*15.20rem;*/ 13.70rem;
+    top: 293%;
+    color: #2d2d43;
+    
+    font-family: calibri; 
+    font-size: 1.90rem;
+    font-weight: 800;  
+    
+    
+}
+
+.vi
+{
+  position: absolute;
+    left: /*15.20rem;*/ 13.70rem;
+    top: /*310%; */ 302%;
+    color: #777777;
+    
+    font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.bu
+{
+    position: absolute;
+    left: /*14.90rem;*/  13.45rem;
+    top: /*320%;*/ /*318%; */ 311%;
+   color: #2d2d43;
+    
+     font-family: calibri; 
+    font-size: 1.90rem;
+    font-weight: 800;  
+    
+}
+
+/*li start*/
+
+.ka 
+{
+    font-size: 0.68rem;
+ color: /*lightgray;*/ #777777;
+  position: absolute;
+    left: /*14.40rem;*/ 13.65rem;
+    top: /*123.50rem;*/ 123.70rem;
+   /* top: 0;*/
+}
+
+.ma
+{
+    font-size: 0.68rem;
+ color: /*lightgray;*/ #777777;
+    position: absolute;
+    left: 24rem; /*23rem;*/
+    top: /*123.50rem; */ 123.70rem;
+}
+
+.la
+{
+    font-size: 0.68rem;
+ color: /*lightgray;*/ #777777;
+   position: absolute;
+    left: 35rem;
+    top: 123.70rem;  
+}
+
+.va
+{
+    font-size: /*0.7rem;*/ 0.68rem;
+ color: /*lightgray;*/ #777777;
+  position: absolute;
+    left: /*14.40rem;*/ 13.65rem;
+    top: 126.20rem;
+}
+
+.cu
+{
+    font-size: 0.68rem;
+ color: /*lightgray;*/ #777777;
+    position: absolute;
+    left: 24rem;
+    top: 126.20rem;  
+}
+
+.pu
+{
+    font-size: /*0.7rem;*/ 0.68rem;
+ color: /*lightgray;*/ #777777;
+   position: absolute;
+   /* left: 24rem;
+    top: 126rem; */
+    left: 35rem;
+    top: 126.20rem;  
+}
+
+.suli
+{
+    font-size: /*0.7rem;*/ 0.68rem;
+ color: /*lightgray;*/ #777777;
+   position: absolute;
+    left: /*14.40rem;*/ 13.65rem;
+    top: 129rem;  
+}
+
+.mk
+{
+    font-size: /*0.7rem;*/ 0.68rem;
+ color: /* lightgray;*/ #777777;
+    position: absolute;
+    left: /*24rem;*/ 24.20rem;  
+    top: 129rem;  
+}
+
+
+/*text start*/
+
+.ca
+{
+    color: /*lightgray;*/ #777777;
+    position: absolute;
+    left: /*15.80rem;*/ 14.70rem;
+    top: 123.80rem;
+    
+    /*left: 0;
+    top: 0;*/
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+
+.ja
+{
+    color: /*lightgray;*/ #777777;
+  position: absolute;
+    left: /*15.80rem;*/ 14.70rem;
+    top: 129rem; 
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+
+.kali
+{
+    color: /*lightgray;*/ #777777;
+  position: absolute;
+    left: /*15.80rem;*/ 14.70rem;
+    top: 126.30rem; 
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+
+.ga
+{
+    color: /* lightgray;*/ #777777;
+  position: absolute;
+    left: 25rem;
+    top: 123.80rem; 
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+
+.vm
+{
+    color:/* lightgray;*/#777777;
+    position: absolute;
+     left: 25.15rem;  
+    top: 129rem;  
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+.vw
+{
+    color:/* lightgray;*/ #777777;
+   position: absolute;
+    left: /*25.50rem;*/ 25rem;
+    top: 126.30rem; 
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+
+.pa
+{
+    color:/* lightgray;*/ #777777;
+     position: absolute;
+    left: /*36.30rem;*/ 36rem; 
+    top: 123.80rem; 
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+
+.sula
+{
+  /*position: absolute;
+    left: 36.30rem;
+    top: 123.80rem;  
+    */
+    color: /* lightgray;*/ #777777;
+     position: absolute;
+    left: /*36.30rem;*/ 36rem; 
+    top: /*123.80rem;  */ 126.30rem;  
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 600;  
+}
+
+.Coffe-Test-Section
+{
+ margin-top: /*-1%;*/ -1%;
+     /* padding-bottom: 17% 1%;*/
+   /* margin-bottom: 50%;*/
+}
+
+ .banner-section img
+{
+  width: 100vw;
+    height: 50vh;
+    background-color: black;
+}
+
+.uli
+{
+   position: absolute;
+    top: /*355.80%;*/ 353%;
+    left: 0%;
+    
+   mix-blend-mode: multiply;
+}
+
+/*.banner-section .img
+{
+ width: 100vw;
+    height: 50vh;  
+    position: relative;
+}*/
+
+
+.of
+{
+position: absolute;
+top: /*375%;*/ 363%;
+left: /*35%;*/ 19%;
+color: white;
+    
+    font-family: calibri; 
+    font-size: 3.80rem;
+    font-weight: 800;
+  
+    
+    
+
+}
+
+.fee
+{
+    position: absolute;
+    left: /*32%;*/ 16.50%;
+    top: /*385%;*/ /*378%;*/ 381%;
+    color: white;
+    /*text-align: center;*/
+    
+     font-family: calibri; 
+    font-size: 1.94vw;
+    line-height: 1rem;
+    font-weight: 400;  
+ 
+}
+
+.loo
+{
+  position: absolute;
+   top: /*389%;*/ 385%;
+   color: white; 
+   left: /*45%;*/ 35%;
+    
+    font-family: calibri; 
+    font-size: 2.12vw;
+    font-weight: 400; 
+     
+  
+}
+
+.Coffe-Time-on-off-Section
+{
+  margin-top: 10%;  
+}
+
+.op
+{
+    position: absolute;
+    left: 13%;
+    top: 420%;
+    
+    font-family: calibri; 
+    font-size: 1.90rem;
+    font-weight: 800;  
+    
+}
+
+.iss
+{
+   position: absolute;
+    left: 13%;
+    top: 435%;  
+    
+      font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.Coffee-Cup-image img
+{
+  position: absolute;
+   width: 35vw;
+    height: 45vh;
+    top: 416%;
+    left: 33%;
+        
+}
+.ope
+{
+  position: absolute;
+  left: 69%;
+    top: 420%; 
+    
+    font-family: calibri; 
+    font-size: 1.90rem;
+    font-weight: 800;  
+}
+.mon
+{
+  position: absolute;
+  left: /*75.30%;*/ 69%;
+    top: 428%;
+    
+    font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.sat
+{
+ position: absolute;
+  left: /*75.30%;*/ 69%;
+    top: 432%;  
+    font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.sun
+{
+  position: absolute;
+  left: /*75.30%;*/ 69%;
+  top: 436%;
+    font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.reserv
+{
+ position: absolute;
+ left: /*75.20%;*/ 69%;
+  top: 442%;  
+    
+    
+    font-family: calibri; 
+    font-size: 1.90rem;
+    font-weight: 800;  
+}
+
+.vat
+{
+  position: absolute;
+ left: /*76.54%;*/ 69%;
+  top: 449%;  
+    margin-left: 20px; 
+   
+    font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+    
+    
+}
+
+.so
+{
+   position: absolute;
+ left: /*75.20%;*/ 69%;
+  top: 448%;             
+}
+
+.numb
+{
+  position: absolute;
+ left: /*76.50%;*/ 69%;
+  top: 454%;                   
+ margin-left: 20px;
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+    
+    
+}
+
+.lid
+{
+ position: absolute;
+ left: /*75.20%;*/ 69%;
+  top: 453%; 
+    /*margin-left: 5px;*/
+} 
+
+
+
+
+
+
+.footer-section
+{
+    margin-top: 20%;  
+    background-color: #404040;
+     /* background-color: #FFE4E1;*/
+    padding: 15% 1%;
+    
+}
+
+.con
+{
+    position: absolute;
+    left: 15.70%;
+    top: 477%;
+    color: white;
+    
+     font-family: calibri; 
+    font-size: 1.90rem;
+    font-weight: 800;  
+}
+
+.loc
+{
+    color: darkgray;
+    position: absolute;
+    left: 15.75%;
+    top: 484%;
+}
+
+.stokes
+{
+ 
+color: darkgray;
+    position: absolute;
+    left: /*15.75%;*/ 17.50%;
+    top: /*489%;*/ 485%;
+    
+     font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+
+}
+
+.phones
+{
+   color: darkgray;
+    position: absolute;
+    left: 15.75%;
+    top: /*499%; */ 493%;
+       font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.usa
+{
+  color: darkgray;/*#979797*/
+    position: absolute;
+    left: 17.70%;
+    top: /*501%;*/ 495%;
+       font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.Envelopes
+{
+  color: darkgray;
+    position: absolute;
+    left: 15.75%;
+    top: /*504%; */ 498%;      
+}
+
+.coff
+{
+  color: darkgray;
+    position: absolute;
+    left: 18%;
+    top: /*505%; */  499%;  
+       font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.icon
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: /*513.30%;*/ 505.90%;
+    left: 16.60%;
+    font-size: 22px;
+    gap:13px; 
+      
+        
+}
+
+.facebooks
+{
+    border-radius: 50%;
+    
+     text-align: center; 
+     background-color: gray;
+        
+        
+}
+
+.twitters
+{
+   border-radius: 50%;
+    
+     text-align: center; 
+     background-color: gray;  
+}
+
+.googleg
+{
+  border-radius: 50%;
+    
+     text-align: center; 
+     background-color: gray;    
+}
+
+.linkei
+{
+  border-radius: 50%;
+    
+     text-align: center; 
+     background-color: gray;      
+}
+
+.News
+{
+    color: white;
+   position: absolute;
+    left: 65.50%;
+    top: 477%;
+    
+     font-family: calibri; 
+    font-size: 1.90rem;
+    font-weight: 800;  
+}
+
+.Get
+{
+    color: darkgray;
+   position: absolute;
+    left: 65.20%;
+    top: /*489%;*/ 485%;
+    
+       font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+/*.in
+{
+  color: gray;
+   position: absolute;
+    left: 57.50%;
+    top: 500%; 
+    padding: 15.20px;
+    width: 18vw;
+    border-radius: 6px;
+    border: none;
+}
+*/
+
+/*.Envelope
+{
+  border-radius: 50%;
+    
+     text-align: center; 
+     background-color: orange;
+           
+}*/
+
+.Subscribe
+{
+    color: /* gainsboro;*/ darkgray;
+   position: absolute; 
+      left: /*57.50%;*/ 64.50%;
+  top:   /*511.50%; */ 504.50%;
+   /* margin-bottom: 5px;*/
+       font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+}
+
+.Well
+{
+  color: /* gainsboro;*/ darkgray;
+   position: absolute; 
+      left: /*57.50%;*/ 64.50%;
+    top: /*514%;*/ 507.50%; 
+    margin-top: 5px;
+    
+       font-family: calibri; 
+    font-size: 1rem;
+    font-weight: 100;  
+    
+}
+
+.copy-right
+{
+    /*position: absolute;
+    
+    bottom: 620%;  */
+   
+    
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    /*align-items: center;
+    justify-content: center
+   align-self: center;*/
+    /*text-align: justify;*/
+    margin-top: /*123px;*/ 102px;
+    margin-left: 10px;
+    /*color: black;*/
+    
+    
+}
+
+.all
+{
+    position: absolute;
+    
+    top: /*530%; */ 525%; 
+    left: 17%;
+    color: #979797;
+    
+    
+    
+}
+
+/*.a
+{
+  display: flex;
+    flex-direction: row;
+    margin-left: 26rem;
+    margin-top: 1.65rem;
+    color: white;
+}
+*/
+
+/*.Envelope
+{
+   position: absolute;
+    top: 500%;
+    left: 75.70%;
+    color: white;
+
+     
+    
+    font-size: 20px;
+    
+    
+    /* text-align: center; 
+     background-color: orange;
+    padding: 21px;
+}
+
+
+
+.elk
+{
+  
+     background-color: orange;
+    padding: 21px;  
+    border-radius: rectangle;
+     text-align: left;
+    padding-top: 2%;
+    /*margin-bottom: 2%;
+}
+*/
+
+.Env
+{
+    border: 1px solid white;
+    position: absolute;
+    width: 20%;
+    left: /*58%;*/ 65%;
+    top: /*500%;*/ 495%;
+    border-radius: 4px;
+}
+
+.in
+{
+    float: left;
+    height: 40px;
+    padding-left: 20px;
+    width: 90%;
+    border: 1px solid white; 
+   
+    
+}
+
+input
+{
+   background-color: #51534a;
+}
+
+::placeholder
+{
+    color: #979797;
+}
+
+.elk
+{
+    color: white;
+    background-color: #d17721;
+    font-size: 20px;
+    text-align: center;
+    /*line-height: 40px;*/
+    width: 10%;
+   height: 40px;
+    padding-top: 10px;
+    /*margin-top: -1px;*/
+    /*padding-left: 2px;*/
+    /*position: absolute;*/
+    /*margin-top: 2%;*/
+    
+   /* padding-top: 2px;*/
+    /*padding-bottom: -8%;*/
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+
+/*body
+{
+ position: relative;   
+}
+
+body,.elk
+{
+    position: absolute;
+    margin-top: 2%;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mob-Size For Css*/
+
+.col-1
+{
+  width: 8.33%;
+}
+.col-2
+{
+  width: 16.66%;
+}
+.col-3
+{
+  width: 25%;
+}
+.col-4
+{
+  width: 33.33%;
+}
+.col-5
+{
+  width: 41.66%;
+}
+.col-6
+{
+  width: 50%;
+}
+.col-7
+{
+  width: 58.33%;
+}
+.col-8
+{
+  width: 66.66%;
+}
+.col-9
+{
+  width: 75%;
+}
+.col-10
+{
+  width: 83.33%;
+}
+.col-11
+{
+  width: 91.66%;
+}
+.col-12
+{
+  width: 100%;
+}
+
+
